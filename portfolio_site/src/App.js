@@ -9,12 +9,14 @@ import JhemmFighters from './components/JhemmFighters';
 import DropZone from './components/Dropzone';
 import Affirm from './components/Affirm';
 import './App.css';
+import Header from './components/Header';
 
     export default class App extends Component {
       render() {
           return (
              
                   <Router>
+                      <Header/>
                       <Switch>
                           <Route
                               path='/'
